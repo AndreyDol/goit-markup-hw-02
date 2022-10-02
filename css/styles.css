@@ -59,6 +59,12 @@ body {
 .header-nav-tel:hover,
 .header-nav-tel:focus,
 .header-nav-tel:active,
+.footer-tel:hover,
+.footer-tel:focus,
+.footer-tel:active,
+.adress:hover,
+.adress:focus,
+.adress:active,
 .current {
   color: var(--logo-bg-color);
 }
