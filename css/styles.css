@@ -16,10 +16,6 @@
 
 
 }
-/*колір заголовків  #212121;*/
-/*основний колір тексту  #757575;*/
-/*основний колір background: #2F303A;*/
-/*основний колір кнопки, лого background: #2196F3;*/
 
 body{
 font-family: var(--main-font);
@@ -63,7 +59,7 @@ color: var(--main-font-color);
 }
 
 /*section Ефективні рішення для вашого бізнесу*/
-.section-solution-header{
+.solution-header{
   font-weight: 900;
  font-size: 44px;
 line-height: 1.36;
@@ -72,7 +68,8 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--main-bg-color);
 }
-.section-solution-btn{
+.solution-btn{
+  cursor: pointer;
   font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -86,12 +83,12 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: none;
 }
-.section-solution-btn-active:hover{background-color:var(--btn-active) ;}
-.section-solution{
+.solution-btn-active:hover,.solution-btn-active:focus,.solution-btn-active:active{background-color:var(--btn-active);}
+.solution{
   background-color: var(--second-bg-color);
 }
 /*section Переваги Вебстудіо*/
-.section-benefits-header{
+.benefits-header{
   font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -100,7 +97,7 @@ color: var(--main-header-color);
 }
 /*---------section Чим ми займаємося------------*/
 
-.section-work-header{
+.work-header{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -109,25 +106,25 @@ color: var(--main-header-color);}
 
 /*---------section Наша команда------------*/
 
-.section-team{
+.team{
   background-color: var(--team-bg-color);
 }
-.section-team-bg-ing{background-color: var(--main-bg-color);}
-.section-team-header{
+.team-bg-ing{background-color: var(--main-bg-color);}
+.team-header{
   font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 color: var(--main-header-color);
 }
-.section-team-name{
+.team-name{
   font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 color: var(--main-header-color);
 }
-.section-team-work{
+.team-work{
   font-size: 16px;
 line-height: 1.19;
 text-align: center;
@@ -164,7 +161,7 @@ color: var(--main-bg-color);
 }
 
 /*проєкти і фільтри------------------*/
-.section-filter-btn {
+.filter-btn {
   cursor: pointer;
 font-family: 'Roboto';
 font-style: normal;
@@ -174,12 +171,15 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-header-color);
+background-color:var(--team-bg-color) ;
+border: none;
 }
-.section-filter-btn-hover:active{
+.filter-btn-hover:active,.filter-btn-hover:hover,.filter-btn-hover:focus{
   color: var( --main-bg-color);
   background: var(--logo-bg-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+border: none;
+
 }
 .project-paragraph{
 line-height: 1.88;
