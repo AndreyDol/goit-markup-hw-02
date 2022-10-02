@@ -1,0 +1,143 @@
+:root{
+/*Шрифти*/
+  --main-font: 'Roboto', sans-serif;
+  --main-font-size:14px;
+  --main-line-height: 1.14;
+  --main-letter-spacing: 0.03em;
+  /*кольори*/
+  --main-header-color:#212121;
+  --main-bg-color:#FFFFFF;
+  --main-font-color:#757575;
+  --second-bg-color: #2F303A;
+  --team-bg-color:#F5F4FA; 
+  --logo-bg-color: #2196F3;
+  --logo-span:#000000;
+
+
+}
+/*колір заголовків  #212121;*/
+/*основний колір тексту  #757575;*/
+/*основний колір background: #2F303A;*/
+/*основний колір кнопки, лого background: #2196F3;*/
+
+body{
+font-family: var(--main-font);
+font-style:normal;
+font-size: var(--main-font-size);
+line-height: var(--main-line-height);
+letter-spacing: var(--main-letter-spacing);
+color: var(--main-font-color);
+background-color: var(--main-bg-color);
+}
+
+h1,h2,h3,h4{color: var(--main-header-color);}
+.link{
+  text-decoration: none;
+  font-style: normal;
+}
+.list{
+  list-style: none;
+}
+/*-----------head--------------------------------*/
+.logo{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--logo-bg-color);
+}
+.logo-span{color: var(--logo-span);
+}
+
+.head-nav{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-header-color);
+}  
+.header-nav-tel{
+color: var(--main-font-color);
+}  
+.nav-hover:hover,.nav-hover:focus, .current {
+  color: var(--logo-bg-color);
+}
+
+/*section Ефективні рішення для вашого бізнесу*/
+.section-solution-header{
+  font-weight: 900;
+ font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--main-bg-color);
+}
+.section-solution-btn{
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+/*display: flex;*/
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--main-bg-color);
+background-color: var(--logo-bg-color);
+}
+.section-solution{
+  background-color: var(--second-bg-color);
+}
+/*section Переваги Вебстудіо*/
+.section-benefits-header{
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--main-header-color);
+}
+/*---------section Чим ми займаємося------------*/
+
+.section-work-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--main-header-color);}
+
+/*---------section Наша команда------------*/
+
+.section-team{
+  background-color: var(--team-bg-color);
+}
+.section-team-header{
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--main-header-color);
+}
+.section-team-name{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+color: var(--main-header-color);
+}
+.section-team-work{
+  font-size: 16px;
+line-height: 1.19;
+text-align: center;
+color: var(--main-font-color);
+}
+
+/*---------Footer------------*/
+.logo-span-footer{color: var(--main-bg-color);
+}
+.footer{
+  background-color: var(--second-bg-color);
+}
+.adress{
+color: var(--main-bg-color);
+}
+.footer-tel{
+  color: rgba(255, 255, 255, 0.6);
+}
